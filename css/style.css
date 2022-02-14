@@ -1,0 +1,59 @@
+.all{
+  width: 1500px;
+}
+.box1{
+  display: flex;
+  justify-content: row;
+}
+.COACHTECH{
+  color: #35357d;
+  font-size: 40px;
+  margin-left: 30px;
+}
+.tag{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 25px;
+  margin-top: 30px;
+  color: #35357d;
+  font-weight: bold;
+}
+.tag1{
+  margin: 0 20px 0 600px;
+  text-decoration: none;
+}
+.tag2{
+  margin: 0 20px 0;
+  text-decoration: none;
+}
+.tag3{
+  margin: 0 20px 0;
+  text-decoration: none;
+}
+.tag4{
+  margin: 0 0 0 20px;
+  text-decoration: none;
+}
+.main{
+  position: relative;
+}
+.photo{
+  margin: 4% auto 0 50%;
+  display: block;
+  width: 50%;
+  z-index: 10;
+}
+.text{
+  font-size: 75px;
+  position: absolute;
+  top: 39%;
+  font-weight: 500;
+}
+.bg{
+  background-color: rgb(5, 5, 92);
+  width: 75%;
+  height: 200px;
+  position: absolute;
+  top: 74%;
+  z-index: -10;
+}
